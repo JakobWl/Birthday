@@ -12,18 +12,6 @@ $(document).ready(function () {
 
     var counter = 0;
 
-    $.ajax({
-        url : folder,
-        success: function (data) {
-            $(data).find("a").attr("href", function (i, val) {
-                if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-                    $('.slider').append( "<div class='slider-content'><h1>" + ily[counter] + "</h1><img src='" + val +"'><div class='arrow'></div></div>" );
-                    counter++;
-                } 
-            });
-        }
-    });
-
     var slidercount = 0;
 
     $(document).on('click', '.arrow', function (e) {
