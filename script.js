@@ -52,7 +52,7 @@ $(document).ready(function () {
             "margin-left": "calc(-50vw + 50%)",
             "margin-top": "-20vh",
             "font-size": "5vh",
-            // overflow: 'hidden'
+            overflow: 'hidden'
         })
         .to('.slider', {
             display: 'flex',
