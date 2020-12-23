@@ -51,8 +51,7 @@ $(document).ready(function () {
             top: 0,
             "margin-left": "calc(-50vw + 50%)",
             "margin-top": "-20vh",
-            "font-size": "5vh",
-            overflow: 'hidden'
+            "font-size": "5vh"
         })
         .to('.slider', {
             display: 'flex',
